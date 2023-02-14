@@ -75,10 +75,10 @@ int main()
 cin>>fname;
 cout<<"Enter Last Name: ";
 cin>>lname;
-cout<<"Enter initil Balance: ";
+cout<<"Enter initial Balance: ";
 cin>>balance;
  acc=b.OpenAccount(fname,lname,balance);
- cout<<endl<<"Congragulation Account is Created"<<endl;
+ cout<<endl<<"Congradulation Account is Created"<<endl;
  cout<<acc;
 break;
  case 2:
@@ -117,7 +117,7 @@ cin>>accountNumber;
  break;
  case 7: break;
  default:
- cout<<"\nEnter corret choice";
+ cout<<"\nEnter correct choice";
 exit(0);
  }
  }while(choice!=7);
